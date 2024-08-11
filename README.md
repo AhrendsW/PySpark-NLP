@@ -4,21 +4,27 @@ Este projeto utiliza PySpark para trabalhar com modelos de classificação, apli
 
 ## Funcionalidades
 
-1. **Vetorização dos Dados**
+1. **WordCloud**
+   - Criação de WordCloud para visualização
+2. **Remoção de caracteres especiais**
+3. **Tokenização**
+4. **StopWords**
+   - Eliminação de StopWords para retirar os ruídos.
+5. **Vetorização dos Dados**
    - Transformação dos dados em vetores para modelos de classificação.
-2. **Modelos de Classificação**
+6. **Modelos de Classificação**
    - Regressão Logística
    - Árvore de Decisão
    - Random Forest
    - Árvores de Gradiente
-3. **Avaliação de Métricas**
+7. **Avaliação de Métricas**
    - Acurácia
    - Precisão
    - Recall
    - F1
-4. **Validação Cruzada**
+8. **Validação Cruzada**
    - Aplicação de cross-validation para otimizar os modelos.
-5. **Classificação de Comentários**
+9. **Classificação de Comentários**
    - Criação de dados de entrada com comentários positivos e negativos para testar o modelo.
 
 ## Objetivo
